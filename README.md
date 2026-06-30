@@ -4,7 +4,7 @@
 
 The core analytical method is **Agglomerative Clustering (cosine distance, average linkage)** applied in PCA‑reduced feature space, producing three interpretable residential typologies. Suitability is evaluated through **block‑weighted composite indicators** (Income‑oriented, Growth‑oriented, and Hybrid), built over standardized and direction‑adjusted variables with sensitivity analysis.
 
-A portable Random Forest classifier and Ridge regression models are included to support **cross‑city scalability**, validated externally on Boston.
+A portable Random Forest classifier and Ridge regression models are included to support **cross‑city scalability**, with the classifier tested externally on Boston.
 
 This repository accompanies academic thesis work. It supports structured comparison and decision‑support analysis — it does **not** forecast investment returns or guarantee real‑estate performance.
 
